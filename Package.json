@@ -1,0 +1,16 @@
+{
+    "name": "mute-deaf-plugin",
+    "version": "1.0.0",
+    "dependencies": {
+      "react": "^17.0.0",
+      "@webpack": "latest", 
+      "@api": "latest", 
+      "@components": "latest",
+      "toasts": "latest"
+    },
+    "scripts": {
+      "build": "webpack --config webpack.config.js",
+      "start": "npnm inject"
+    }
+  }
+  
